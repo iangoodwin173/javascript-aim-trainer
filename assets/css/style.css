@@ -3,12 +3,13 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    
+    background-image: url('../img/outdoor-range.jpg');
+    background-size: cover;
 }
 
 .playarea {
-    height: 90vh;
-    background-image: url('../img/outdoor-range.jpg');
+    height: 85vh;
+    background-color: transparent;
     background-size: cover;
 }
 
@@ -22,4 +23,13 @@ header {
     display: inline-flex;
     justify-content: center;
     text-align: center;
+}
+
+.instruction-text {
+    display: none;
+    font-style: italic;
+}
+
+#how-to-play{
+    display: inline-flex;
 }
