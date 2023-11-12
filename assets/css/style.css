@@ -1,0 +1,13 @@
+body {
+    background-color: tan;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.playarea {
+    height: 90vh;
+    background-image: url('../img/outdoor-range.jpg');
+    background-size: cover;
+}
